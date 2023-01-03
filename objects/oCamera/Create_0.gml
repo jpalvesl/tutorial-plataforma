@@ -6,3 +6,8 @@ halfViewHeight = camera_get_view_height(cam) * 0.5
 
 xTo = xstart
 yTo = ystart
+
+shakeLength = 0
+shakeMagnitude = 0
+shakeRemain = 0
+buffer = 32

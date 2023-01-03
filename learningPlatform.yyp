@@ -4,8 +4,11 @@
   "name": "learningPlatform",
   "resources": [
     {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},"order":0,},
+    {"id":{"name":"sMountain","path":"sprites/sMountain/sMountain.yy",},"order":14,},
     {"id":{"name":"sPlayerAirbourne","path":"sprites/sPlayerAirbourne/sPlayerAirbourne.yy",},"order":3,},
+    {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":0,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
+    {"id":{"name":"sTrees","path":"sprites/sTrees/sTrees.yy",},"order":15,},
     {"id":{"name":"SlideTransitions","path":"scripts/SlideTransitions/SlideTransitions.yy",},"order":0,},
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},"order":12,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
@@ -15,7 +18,9 @@
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"sEnemyAirbourne","path":"sprites/sEnemyAirbourne/sEnemyAirbourne.yy",},"order":8,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":3,},
+    {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":9,},
     {"id":{"name":"sPlayerRunning","path":"sprites/sPlayerRunning/sPlayerRunning.yy",},"order":4,},
+    {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":13,},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":7,},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":11,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":5,},
@@ -28,6 +33,7 @@
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":6,},
     {"id":{"name":"sEnemyDead","path":"sprites/sEnemyDead/sEnemyDead.yy",},"order":10,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":2,},
+    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":2,},
     {"id":{"name":"Fase1","path":"rooms/Fase1/Fase1.yy",},"order":0,},
   ],
   "Options": [
@@ -42,6 +48,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Fase1","path":"rooms/Fase1/Fase1.yy",},},
     {"roomId":{"name":"Fase2","path":"rooms/Fase2/Fase2.yy",},},
   ],
