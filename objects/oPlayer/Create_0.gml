@@ -5,3 +5,4 @@ walkSpeed = 4
 
 
 controller = 0
+hasControl = true
