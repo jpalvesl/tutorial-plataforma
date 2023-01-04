@@ -86,6 +86,11 @@ if (!onTheFloor)
 	}
 } 
 else {
+	if (sprite_index == sPlayerAirbourne) 
+	{	
+		audio_sound_pitch(snLanding, choose(0.8, 1.0, 1.2))
+		audio_play_sound(snLanding, 4, false)
+	}
 	image_speed = 1
 	if (horizontalSpeed  == 0)
 	{

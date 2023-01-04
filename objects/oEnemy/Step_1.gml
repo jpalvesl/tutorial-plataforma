@@ -5,10 +5,9 @@ if (hp <= 0)
 		direction = other.hitfrom
 		horizontalSpeed = lengthdir_x(3, direction)
 		verticalSpeed = lengthdir_y(3, direction) -2
-		if (sign(horizontalSpeed)) 
-		{
-			image_xscale = sign(horizontalSpeed)
-		}
+		
+		image_xscale = sign(horizontalSpeed) * other.size
+		image_yscale = other.size
 	}
 	
 	instance_destroy()	

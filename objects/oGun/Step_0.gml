@@ -23,6 +23,8 @@ if (mouse_check_button(mb_left) or gamepad_button_check(0, gp_shoulderr)) and (f
 	recoil = 4
 	firingDelay = 5
 	ScreenShake(2,10)
+	audio_sound_pitch(snShoot, choose(0.7, 1.0, 1.3))
+	audio_play_sound(snShoot, 0, false)
 	with (instance_create_layer(x, y, "Bullets", oBullet)) 
 	{
 		speed = 25

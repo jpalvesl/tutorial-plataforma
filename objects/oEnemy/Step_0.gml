@@ -60,3 +60,6 @@ else {
 	}
 }
 
+if (horizontalSpeed != 0) image_xscale = sign(horizontalSpeed) * size
+image_yscale = size
+

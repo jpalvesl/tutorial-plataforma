@@ -1,4 +1,6 @@
 /// @description GUI/Vars/Menu setup
+#macro SAVEFILE "Save.sav"
+
 
 guiWidth = display_get_gui_width()
 guiHeight = display_get_gui_height()

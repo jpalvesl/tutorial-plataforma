@@ -30,9 +30,22 @@ if (menuX > guiWidth+150) and (menuCommited != -1)
 {
 	switch (menuCommited)
 	{
-		case 2: default:
+		case 2:
 		{
 			SlideTransitions(TRANSITION_MODE.NEXT)
+			break
+		}
+		case 1:
+		{
+			if (!file_exists(SAVEFILE)) {
+				SlideTransitions(TRANSITION_MODE.NEXT)
+			}
+			else {
+				var file = file_text_open_read(SAVEFILE)
+				var target = file_text_read_real(file)
+				file_text_close(file)
+				SlideTransitions(TRANSITION_MODE.GOTO, target)
+			}
 			break
 		}
 		case 0:

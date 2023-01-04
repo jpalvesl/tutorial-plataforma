@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "ScreenShake",
+  "name": "DrawSetText",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
